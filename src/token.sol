@@ -9,10 +9,6 @@ contract Ownership {
     _;
   }
 
-  function Owner() public {
-    owner = msg.sender;
-  }
-
 }
 
 contract Pausable is Ownership {
